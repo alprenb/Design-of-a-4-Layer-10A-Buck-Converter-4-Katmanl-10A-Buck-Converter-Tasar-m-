@@ -6,11 +6,23 @@ Endüstriyel standartlara ve IPC-2152 üretim kısıtlarına azami düzeyde uyul
 Tasarım konfigürasyonları ve komponent seçimleri Designer simülasyonları ile doğrulanmıştır.
 
    **Parametre Değerleri 
+
+   
    Giriş Gerilimi (Vin) : 12V - 15V 
+   
+   
    Çıkış Gerilimi (Vout) : 5V 
+
+   
    Maksimum Çıkış Akımı (Iout): 10A 
+
+   
    Anahtarlama Frekansı (SW): 200 kHz
+
+   
    Fiziksel Boyutlar: 70 mm x 70 mm 
+
+   
 
  🛠️ PCB Katman Mimarisi (4-Layer Stack-Up)
 Karmaşık güç akışını (Power Flow) ve hassas sinyal yollarını (Signal Integrity) izole etmek amacıyla 4 katmanlı (4-Layer) mimari tercih edilmiştir:
