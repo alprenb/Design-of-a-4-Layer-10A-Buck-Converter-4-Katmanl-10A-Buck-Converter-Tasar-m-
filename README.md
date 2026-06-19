@@ -34,4 +34,4 @@ Tasarım Altium Designer ortamında elektriksel ve fiziksel Kural Denetimlerinde
 * BOM (Bill of Materials) Listesi
 
 ---
-📸 *Not: Projeye ait Altium 3D görsellerini, katman dağılımlarını (Layer Manager) ve WEBENCH şematik çıktılarını `images` klasöründe bulabilirsiniz.*
+📸 *Not: Projeye ait Altium 3D görsellerini, katman dağılımlarını (Layer Manager) `image` klasöründe bulabilirsiniz.*
