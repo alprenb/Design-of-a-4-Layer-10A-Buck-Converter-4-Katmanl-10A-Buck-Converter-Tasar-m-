@@ -1,4 +1,4 @@
-*4-Layer 10A Synchronous Buck Converter Design ⚡
+# 4-Layer 10A Synchronous Buck Converter Design ⚡
 
 Endüstriyel standartlara ve IPC-2152 üretim kısıtlarına azami düzeyde uyularak tasarlanmış, yüksek verimli ve 10A sürekli akım kapasiteli senkron düşürücü (buck) dönüştürücü PCB tasarımıdır. 
 
@@ -15,7 +15,7 @@ Tasarım konfigürasyonları ve komponent seçimleri Designer simülasyonları i
  🛠️ PCB Katman Mimarisi (4-Layer Stack-Up)
 Karmaşık güç akışını (Power Flow) ve hassas sinyal yollarını (Signal Integrity) izole etmek amacıyla 4 katmanlı (4-Layer) mimari tercih edilmiştir:
 
-  L1 (Top Layer):** Ana güç bileşenleri (MOSFET, İndüktör), yüksek frekanslı SW düğümü ve Vin/Vout güç poligonlarının bulunduğu ana katman.
+  L1 (Top Layer): Ana güç bileşenleri (MOSFET, İndüktör), yüksek frekanslı SW düğümü ve Vin/Vout güç poligonlarının bulunduğu ana katman.
   L2 (Inner 1 - PGND Shield):  EMI kalkanlaması sağlamak ve dönüş akımlarına en düşük empedanslı yolu sunmak için kesintisiz Güç Toprağı (PGND) düzlemi.
   L3 (Inner 2 - Power Mirror): Yüksek akım taşıma kapasitesini artırmak için Vin ve Vout güç yollarının aynalanmış (mirrored) katmanı.
   L4 (Bottom Layer - Analog):  LM25145 kontrolcü entegresi, geri besleme (FB) gibi hassas analog sinyaller ve Analog Toprak (AGND) düzleminin bulunduğu izole katman.
